@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>lamborghini Landing page</title>
+        <style>
+        body{
+            background: rgba(0, 0, 0, 0.7) url(imgs/lambobg.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+        }</style>
+        
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <img src="imgs/Lamborghini_Logo.png" class="logo"
+                width="45px"
+                height="45px">
+            </img>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Models</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Brand</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Store</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav__toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main container">
+            <div class="home grid">
+                <h1 class="home__title">LAMBORGHINI</h1>
+
+                <div class="home__img">
+                    <img src="imgs/lamborghini.png" alt="">
+                </div>
+
+                <div class="home__information">
+                    <h2 class="home__subtitle">LAMBORGHINI -<br>URUS</h2>
+                    <p class="home__description">The Lamborghini Urus is a Luxury SUV manufactured by Italian automobile manufacturer.
+                        It comes with a 4.0-liter twin-turbo V8 engine. It has a top speed of 100 kilometers per hour in 3.5 seconds.</p>
+                </div>
+
+                <div class="box">
+                    <div class="box__content box__medium">
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box__medium-title inline">3.6</h3>
+                        <span class="box__medium-description block">Sec.</span>
+                        <span class="box__medium-detail">0-100 km/h</span>
+                    </div>
+
+                    <div>
+                        <div class="box__content box__small">
+                            <ion-icon name="trending-up-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline">305</h3>
+                            <span class="box__small-description block">km/h</span>
+                            <span class="box__small-detail">Top Speed</span>
+                        </div>
+                        <div class="box__content box__small">
+                            <ion-icon name="car-sport-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title inline">6000</h3>
+                            <span class="box__small-description block">r.p.m</span>
+                            <span class="box__small-detail">Power</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+         <!-- ICONOS -->
+         <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script> 
+
+         <!-- GSAP  -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>      
+         <!-- MAIN  -->
+         <script src="main.js"></script>  
+    </body>
+</html>
+

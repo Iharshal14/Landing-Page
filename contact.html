@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact us</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+        body{
+            background: rgba(0, 0, 0, 0.5) url(imgs/background1.JPG);
+            background-size: cover;
+            background-attachment: fixed;
+			background-blend-mode: darken;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+		
+	</div>
+	<header>
+            <p align="center"> <img src="imgs/img.png" style="float: inline-middle" alt="Welcome to our Contact Us page"></p>
+            <div class="content1">
+                <h1>Get in Touch With Us</h1>
+                <p>We're here to answer any questions you may have.</p>
+            </div>    
+    
+	</header>
+        </div>
+	<div class="contact-form">
+			<h2>Your Details</h2>
+			<form action="#" method="POST">
+
+				<label for="name">Name: </label>
+				<input type="text" id="name" name="name" rows="2" placeholder="Full Name" required>
+
+				<label for="email">Email: </label>
+				<input type="email" id="email" name="email" placeholder="Mail id" required>
+
+				<label for="phone">Phone No.: </label>
+				<input type="tel" id="phone" name="phone" placeholder="Ph no" required>
+
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4" placeholder="Write Here" required></textarea>
+
+				<p align="center"><button type="submit" class="submit-button">Submit</button></p>
+			</form>
+    </div>
+	<div class="contact-info">
+		<h2>Contact Information</h2>
+		<address>
+			Phone: <a href="tel: 9405536814">+91 9405536814</a><br>
+			Email: <a href="mailto: pawarharshaln14@gmail.com">pawarharshaln14@gmail.com</a>
+		</address>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Agency FB;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20 32;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 50px;
+    position: relative;
+    font-size: x-large;
+}
+ .navbar ul li a{   
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all .60s ease;
+}
+.navbar ul li a:hover{
+    color:#0497ec;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #066ede;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.8s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content1{
+    width: 100%;
+    padding: 80 10px;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-style: normal;
+    color:#ffffff;
+    font-size: large;
+}
+input{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+textarea{
+    resize: none;
+    bottom: 100%;
+    font-style: normal;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact-form{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-style: normal;
+    color:#ffffff;
+    font-size: xx-large;
+}
+.contact-info{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-style: normal;
+    color:#ffffff;
+    font-size: larger;
+}
+.contact-info{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-style: normal;
+    color:#ffffff;
+    font-size: larger;
+}
+button{
+    width: 100px;
+    padding: 8px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #0497ec;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: medium;
+}
+.contact-form button:hover{
+    color:#0497ec;
+    font-size: medium;
+}
+.contact-form button{   
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all .50s ease;
+}
+</style>
+
+</body>
+
+</html>
